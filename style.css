@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+font-size: 20px;
+}
+.head{
+  background-color: #f3473b!important;
+/* padding: 20px 10px ; */
+    letter-spacing: 2px;
+   box-shadow: 0px 0px 10px rgb(53, 52, 52);
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    
+    
+    
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.home{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.home:hover{
+background-color: rgb(173, 171, 171);
+}
+.a a:hover{
+    background-color: white;
+    color: black;
+}
+
+.header{
+    background-color: #f3473b;
+ margin-top: -23px;
+ height: 500px;
+ 
+}
+.header h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 55px;
+    padding-top: 20px;
+}
+p{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-size: 25px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 850px;
+    top: 200px;
+}
+button:hover{
+    background-color: rgb(216, 214, 214);
+    color: black;
+}
+article{
+    position: relative;
+    width: 35%;
+    left: 400px;
+    top: 60px;
+}
+article img{
+    position: relative;
+    left: 650px;
+    top: -250px;
+}
+article h6{
+    font-size: 30px;
+}
+article b{
+position: relative;
+top: 10px;
+}
+
+
+
+
+section{
+    position: relative;
+    width: 35%;
+    left: 400px;
+    top: 100px;
+    
+  
+}
+section img{
+    position: relative;
+    right: 100px;
+    top: -10px;
+}
+section h6{
+    font-size: 30px;
+}
+section b{
+position: relative;
+top: 10px;
+}
+
+.lorem1{
+    position: relative;
+    top: -200px;
+    left: 400px;
+    background-color: #f1f1f1!important;
+}
+
+.sec{
+    background-color: #f1f1f1!important;
+}
+.foot{
+    position: relative;
+    text-align: center;
+    background-color: grey;
+    padding-top: 30px;
+    padding-bottom: 150px;
+
+}
+.foot h2{
+    color: white;
+    padding-top: 40px;
+    position: relative;
+    top: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    position: relative;
+    right:400px
+}
+.text{
+    position: relative;
+    top: 150px;
+    right: 270px;
+    font-size: 15px;
+    color: grey;
+}
